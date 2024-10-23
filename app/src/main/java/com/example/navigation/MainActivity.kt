@@ -70,7 +70,7 @@ fun Navigation()
                         }
 
                     else{
-                        IconButton(onClick = { navController.navigate(Principal) }) {
+                        IconButton(onClick = { navController.navigateUp() }) {
                             Icon(
                                 imageVector = Icons.Default.ArrowBack,
                                 contentDescription = "Back"
